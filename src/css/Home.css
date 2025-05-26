@@ -1,0 +1,27 @@
+.categories-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-head .categories-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.categories-head .categories-title span {
+    font-weight: bold;
+    color: #8DD8FF;
+}
+
+.categories-body {
+    width: 85%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
