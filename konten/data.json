@@ -1,40 +1,44 @@
 {
   "konten": [
     {
-      "nama_lokasi": "",
-      "lokasi": "",
-      "description": "",
-      "image": "",
-      "slug": "",
-      "rating": ,
-      "kategori": "Street Food Legendaris di Jakarta"
+      "nama_lokasi": "Sate Sabang Pak Heri",
+      "lokasi": "Jalan Sabang, Jakarta Pusat",
+      "description": "Sate Sabang telah berdiri sejak tahun 1970-an dan menjadi salah satu ikon kuliner malam Jakarta.
+      Menu andalannya tentu saja sate ayam dan sate kambing yang dibumbui dengan kecap khas dan disajikan bersama lontong. Teksturnya empuk, bumbunya meresap, dan sambal kecap pedasnya bikin nagih.",
+      "image": "public/images/sate-sabang.jpg",
+      "slug": "sate-sabang-pak-heri",
+      "rating": 4,
+      "kategori": "street-food-legendaris-jakarta"
     },
     {
-      "nama_lokasi": "",
-      "lokasi": "",
-      "description": "",
-      "image": "",
-      "slug": "",
-      "rating": ,
-      "kategori": "Street Food Legendaris di Jakarta"
+      "nama_lokasi": "Gado-Gado Bonbin",
+      "lokasi": "Jalan Cikini IV, Jakarta Pusat",
+      "description": "Gado-Gado Bonbin sudah eksis sejak tahun 1960-an dan namanya diambil dari lokasi awal yang berdekatan dengan kebun binatang (Bonbin). Tempat ini sangat terkenal di kalangan pecinta kuliner Betawi dan kerap menjadi langganan para tokoh terkenal.
+      Gado-gado di sini memiliki bumbu kacang yang kental, gurih, dan sedikit manis. Sayurannya selalu segar, lontongnya lembut, dan kerupuk emping jadi pelengkap sempurna. Bagi banyak orang, rasa bumbunya sulit ditandingi oleh tempat lain.",
+      "image": "public/images/bon-bin.jpg",
+      "slug": "gado-gado-bonbin",
+      "rating": 4,
+      "kategori": "street-food-legendaris-jakarta"
     },
     {
-      "nama_lokasi": "",
-      "lokasi": "",
-      "description": "",
-      "image": "",
-      "slug": "",
-      "rating": ,
-      "kategori": "Street Food Legendaris di Jakarta"
+      "nama_lokasi": "Nasi Uduk Betawi Kebon Kacang",
+      "lokasi": "Kebon Kacang, Tanah Abang, Jakarta Pusat",
+      "description": "Beroperasi sejak dekade 1970-an, warung ini jadi pilihan favorit warga dan pekerja sekitar Tanah Abang.
+      Nasi uduknya harum dan gurih, disajikan dengan ayam goreng, bihun, tempe orek, dan sambal kacang yang khas. Pilihan lauknya beragam, mulai dari telur balado, jengkol, hingga ati ampela.",
+      "image": "public/images/nasi-uduk-kebon-kacang.jpg",
+      "slug": "nasi-uduk-betawi-kebon-kacang",
+      "rating": 4,
+      "kategori": "street-food-legendaris-jakarta"
     },
     {
-      "nama_lokasi": "",
-      "lokasi": "",
-      "description": "",
-      "image": "",
-      "slug": "",
-      "rating": ,
-      "kategori": ""
+      "nama_lokasi": "Soto Betawi H. Ma’ruf",
+      "lokasi": "Taman Ismail Marzuki (TIM), Cikini",
+      "description": "Didirikan oleh Haji Ma’ruf sejak 1940-an, warung Soto Betawi H. Ma’ruf menjadi pelopor soto Betawi santan yang creamy dan kaya rasa. Dulunya berjualan secara keliling, hingga akhirnya memiliki tempat permanen di kawasan TIM.
+      Kuahnya terbuat dari campuran santan dan susu yang kental dan gurih. Isian dagingnya bisa dipilih sesuai selera—daging sapi, paru, empal, hingga babat. Jangan lupa tambah sambal dan emping biar makin mantap!",
+      "image": "public/images/soto-betawi-h-ma-ruf.jpg",
+      "slug": "soto-betawi-h-ma'ruf",
+      "rating": 4,
+      "kategori": "street-food-legendaris-jakarta"
     },
     {
       "nama_lokasi": "",
