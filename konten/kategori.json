@@ -1,0 +1,24 @@
+{
+  "kategori": [
+    {
+      "nama": "Street Food Legendaris di Jakarta",
+      "slug": "street-food-legendaris-jakarta",
+      "image": "public/images/street-food.jpg"
+    },
+    {
+      "nama": "Kuliner Keluarga di Bogor",
+      "slug": "kuliner-keluarga-bogor",
+      "image": "public/images/kuliner-keluarga.jpg"
+    },
+    {
+      "nama": "Cafe Hits di Tangerang",
+      "slug": "cafe-hits-tangerang",
+      "image": "public/images/cafe.jpg"
+    },
+    {
+      "nama": "Spot Makan Populer di Depok",
+      "slug": "spot-makan-populer-depok",
+      "image": "public/images/spot-makan-populer.jpg"
+    }
+  ]
+}
