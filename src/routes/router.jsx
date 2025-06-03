@@ -3,6 +3,7 @@ import Home from "./../pages/Home";
 import AboutUs from "../pages/AboutUs";
 import Culinaries from "../pages/Culinaries";
 import ContactUs from "../pages/ContactUs";
+import Categories from "../pages/Categories";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
     {
         path : "/contact-us",
         element : <ContactUs/>
+    },
+    {
+        path : "/categories/:slug",
+        element : <Categories/>
     },
 ])
 

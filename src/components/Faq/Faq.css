@@ -1,0 +1,15 @@
+.questions {
+    width: 80%;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.questions h3 {
+    background: transparent;
+}

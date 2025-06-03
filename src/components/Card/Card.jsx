@@ -1,10 +1,10 @@
 import "./Card.css"
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 const Card = (props) => {
-    const {image, title} = props
+    const {image, title, slug} = props
     return (
         <>
-            <NavLink to={`/categories`}>
+            <Link to={`/categories/${slug}`}>
                 <div className="card">
                     <div className="card-image">
                         <img src={image} alt="card-image"/>
@@ -15,7 +15,7 @@ const Card = (props) => {
                         </p>
                     </div>
                 </div>
-            </NavLink>
+            </Link>
         </>
     )
 }
