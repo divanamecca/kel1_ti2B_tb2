@@ -3,6 +3,7 @@
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   padding: 16px;
+  /* width: 19%; */
   width: 260px;
   display: flex;
   flex-direction: column;
@@ -21,6 +22,7 @@
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 8px 0;
+  background-color: transparent;
 }
 
 .rating-section {
@@ -29,10 +31,12 @@
   margin-bottom: 8px;
   color: #ffc107;
   font-size: 1.1rem;
+  background-color: transparent;
 }
 
 .stars {
   letter-spacing: 2px;
+  background-color: transparent;
 }
 
 .rating-value {
@@ -51,4 +55,5 @@
   color: #555;
   font-size: 0.98rem;
   margin-top: 4px;
+  background-color: transparent;
 }

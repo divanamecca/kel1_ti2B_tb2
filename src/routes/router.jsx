@@ -4,6 +4,7 @@ import AboutUs from "../pages/AboutUs";
 import Culinaries from "../pages/Culinaries";
 import ContactUs from "../pages/ContactUs";
 import Categories from "../pages/Categories";
+import Restaurant from "../pages/Restaurant";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
         path : "/categories/:slug",
         element : <Categories/>
     },
+    {
+        path : "/restaurant/:slug",
+        element : <Restaurant/>
+    }
 ])
 
 export default router;

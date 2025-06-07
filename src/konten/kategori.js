@@ -1,8 +1,8 @@
-{
+const categories = {
   "kategori": [
     {
-      "nama": "Street Food di Jakarta",
-      "slug": "street-food-jakarta",
+      "nama": "Street Food Legendaris di Jakarta",
+      "slug": "street-food-legendaris-jakarta",
       "image": "./images/street-food.jpg"
     },
     {
@@ -22,3 +22,5 @@
     }
   ]
 }
+
+export default categories;

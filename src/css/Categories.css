@@ -1,0 +1,14 @@
+.title h2 {
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.restaurants {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

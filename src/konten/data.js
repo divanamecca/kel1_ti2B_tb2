@@ -1,4 +1,4 @@
-{
+const restoData = {
   "konten": [
     {
       "nama_lokasi": "Sate Sabang Pak Heri",
@@ -37,6 +37,24 @@
       "kategori": "street-food-legendaris-jakarta"
     },
     {
+      "nama_lokasi": "Soto Betawi H. Ma’ruf",
+      "lokasi": "Taman Ismail Marzuki (TIM), Cikini",
+      "description": "Didirikan oleh Haji Ma’ruf sejak 1940-an, warung Soto Betawi H. Ma’ruf menjadi pelopor soto Betawi santan yang creamy dan kaya rasa. Dulunya berjualan secara keliling, hingga akhirnya memiliki tempat permanen di kawasan TIM. Kuahnya terbuat dari campuran santan dan susu yang kental dan gurih. Isian dagingnya bisa dipilih sesuai selera—daging sapi, paru, empal, hingga babat. Jangan lupa tambah sambal dan emping biar makin mantap!",
+      "image": "public/images/soto-betawi-h-ma-ruf.jpg",
+      "slug": "soto-betawi-h-ma'ruf",
+      "rating": 4,
+      "kategori": "street-food-legendaris-jakarta"
+    },
+    {
+      "nama_lokasi": "Soto Betawi H. Ma’ruf",
+      "lokasi": "Taman Ismail Marzuki (TIM), Cikini",
+      "description": "Didirikan oleh Haji Ma’ruf sejak 1940-an, warung Soto Betawi H. Ma’ruf menjadi pelopor soto Betawi santan yang creamy dan kaya rasa. Dulunya berjualan secara keliling, hingga akhirnya memiliki tempat permanen di kawasan TIM. Kuahnya terbuat dari campuran santan dan susu yang kental dan gurih. Isian dagingnya bisa dipilih sesuai selera—daging sapi, paru, empal, hingga babat. Jangan lupa tambah sambal dan emping biar makin mantap!",
+      "image": "public/images/soto-betawi-h-ma-ruf.jpg",
+      "slug": "soto-betawi-h-ma'ruf",
+      "rating": 4,
+      "kategori": "street-food-legendaris-jakarta"
+    },
+    {
       "nama_lokasi": "RM Bumi Aki Puncak",
       "lokasi": "Jalan Raya Puncak Ciloto, Bogor",
       "description": "RM Bumi Aki Puncak berawal dari sebuah kedai kopi kecil di Jalan Raya Puncak-Ciloto No. 59 pada tahun 1987, yang kemudian berkembang menjadi sebuah rumah makan keluarga dengan menu khas Sunda. Hidangan diolah dengan peralatan masak tradisional untuk memperkaya pengalaman tamu dalam mencicipi kuliner Sunda yang sesungguhnya.",
@@ -61,7 +79,8 @@
       "image": "public/images/kluwih-sunda.jpg",
       "slug": "kluwih-sunda",
       "rating": 4,
-      "kategori": "kuliner-keluarga-bogor"
+      "kategori": "kuliner-keluarga-bogor",
+      "map" : '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.353226185666!2d106.80838437499361!3d-6.602952093390945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5dc120272b5%3A0xa60f986acaaa4b3a!2sKluwih%20Sunda!5e0!3m2!1sen!2sid!4v1749207392935!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
     },
     {
       "nama_lokasi": "Gili-Gili Restaurant",
@@ -146,3 +165,5 @@
     }
   ]
 }
+
+export default restoData;

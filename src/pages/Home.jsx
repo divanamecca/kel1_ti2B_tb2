@@ -1,31 +1,19 @@
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
 import Card from "../components/Card/Card";
 import Faq from "../components/Faq/Faq";
 import "./../css/Home.css";
+import categories from "../konten/kategori";
 import { useEffect, useState } from "react";
 
 
 const Home = () => {
     const [data, setData] = useState([]);
-    const fetchAPI = async () => {
-    try {
-        const response = await fetch('http://localhost:5173/konten/kategori.json');
-        const  { kategori } = await response.json();
-        setData(kategori)
-    } catch (error) {
-        console.log(error)
-    }
-    };
 
     useEffect(() => {
-        fetchAPI();
+        setData(categories.kategori);
     }, [])
     
-    useEffect(() => {
-        console.log(data)
-    }, [data])
 
     return (
         <>
@@ -61,7 +49,6 @@ const Home = () => {
                                     </h1>
                                 </div>
                                 <div className="faq-body">
-                                    <Faq/>
                                     <Faq/>
                                 </div>
                             </div>

@@ -13,3 +13,31 @@
 .questions h3 {
     background: transparent;
 }
+
+.answer-box {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.answer-box p {
+    background-color: white;
+}
+
+.answer-box.active {
+    max-height: 500px; /* cukup tinggi untuk teks */
+    opacity: 1;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+.restaurant {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.restaurant .restaurant-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.restaurant .restaurant-title p {
+    font-size: 30px;
+}
+
+.restaurant .restaurant-img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.restaurant-info {
+    width: 50%;
+    height: 100%;
+}
+
+.restaurant-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.restaurant .restaurant-title .restaurant-ratings {
+    display: flex;
+    align-items: center;
+    color: #ffc107;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+
+.stars {
+    letter-spacing: 2px;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.rating-value {
+    color: #333;
+    font-size: 1rem;
+    margin-left: 8px;
+}
+
+.review-count {
+    color: #888;
+    font-size: 0.95rem;
+    margin-left: 8px;
+}
+
+.restaurant-description {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.restaurant-address {
+    display: flex;
+    flex-direction: column;
+}
