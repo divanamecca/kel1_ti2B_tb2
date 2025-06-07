@@ -7,7 +7,8 @@ const restoData = {
       "image": "public/images/sate-sabang.jpg",
       "slug": "sate-sabang-pak-heri",
       "rating": 4,
-      "kategori": "street-food-legendaris-jakarta"
+      "kategori": "street-food-legendaris-jakarta",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5828086466095!2d106.82247927536217!3d-6.18654509380102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d18c68da7b%3A0xb6a1d8fbbfa84be5!2sSatay%20Booth%20Pak%20Heri%20Original!5e0!3m2!1sen!2sid!4v1749211118095!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Gado-Gado Bonbin",
@@ -16,7 +17,8 @@ const restoData = {
       "image": "public/images/bon-bin.jpg",
       "slug": "gado-gado-bonbin",
       "rating": 4,
-      "kategori": "street-food-legendaris-jakarta"
+      "kategori": "street-food-legendaris-jakarta",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.535003299629!2d106.8383278!3d-6.1929121999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5fa5f5bcced%3A0x8f71038f41e5cbbe!2sGado%20Gado%20BON%20BIN!5e0!3m2!1sen!2sid!4v1749211278735!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Nasi Uduk Betawi Kebon Kacang",
@@ -25,7 +27,8 @@ const restoData = {
       "image": "public/images/nasi-uduk-kebon-kacang.jpg",
       "slug": "nasi-uduk-betawi-kebon-kacang",
       "rating": 4,
-      "kategori": "street-food-legendaris-jakarta"
+      "kategori": "street-food-legendaris-jakarta",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.571420938484!2d106.81614737536206!3d-6.188062393799492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f427ed516321%3A0x86051ee64351d2a9!2sNasi%20Uduk%20Kebon%20Kacang%20Puas%20Hati%20ibu%20Tati!5e0!3m2!1sen!2sid!4v1749211399615!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Soto Betawi H. Ma’ruf",
@@ -34,7 +37,8 @@ const restoData = {
       "image": "public/images/soto-betawi-h-ma-ruf.jpg",
       "slug": "soto-betawi-h-ma'ruf",
       "rating": 4,
-      "kategori": "street-food-legendaris-jakarta"
+      "kategori": "street-food-legendaris-jakarta",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5609456642455!2d106.83625687536215!3d-6.189457793798117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f50fdffe79e5%3A0x6b39f235cc984c72!2sSoto%20Betawi%20H%20Maruf%20TIM!5e0!3m2!1sen!2sid!4v1749211469653!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Soto Betawi H. Ma’ruf",
@@ -43,7 +47,8 @@ const restoData = {
       "image": "public/images/soto-betawi-h-ma-ruf.jpg",
       "slug": "soto-betawi-h-ma'ruf",
       "rating": 4,
-      "kategori": "street-food-legendaris-jakarta"
+      "kategori": "street-food-legendaris-jakarta",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.571420938484!2d106.81614737536206!3d-6.188062393799492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f427ed516321%3A0x86051ee64351d2a9!2sNasi%20Uduk%20Kebon%20Kacang%20Puas%20Hati%20ibu%20Tati!5e0!3m2!1sen!2sid!4v1749211399615!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Soto Betawi H. Ma’ruf",
@@ -52,7 +57,8 @@ const restoData = {
       "image": "public/images/soto-betawi-h-ma-ruf.jpg",
       "slug": "soto-betawi-h-ma'ruf",
       "rating": 4,
-      "kategori": "street-food-legendaris-jakarta"
+      "kategori": "street-food-legendaris-jakarta",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5609456642455!2d106.83625687536215!3d-6.189457793798117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f50fdffe79e5%3A0x6b39f235cc984c72!2sSoto%20Betawi%20H%20Maruf%20TIM!5e0!3m2!1sen!2sid!4v1749211469653!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "RM Bumi Aki Puncak",
@@ -61,7 +67,8 @@ const restoData = {
       "image": "public/images/bumi-aki-puncak.jpg",
       "slug": "rm-bumi-aki-puncak",
       "rating": 4,
-      "kategori": "kuliner-keluarga-bogor"
+      "kategori": "kuliner-keluarga-bogor",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.4758939268077!2d106.99664487536629!3d-6.711628793284157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b40419836a7b%3A0xe53a2da4f4b53e16!2sBumi%20Aki%20Restaurant%20-%20Gadog!5e0!3m2!1sen!2sid!4v1749211630287!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "De'leuit Restaurant",
@@ -70,7 +77,8 @@ const restoData = {
       "image": "public/images/deleuit-resto.jpg",
       "slug": "de-leuit-restaurant",
       "rating": 4,
-      "kategori": "kuliner-keluarga-bogor"
+      "kategori": "kuliner-keluarga-bogor",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.319456768902!2d106.8103258!3d-6.6071681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5dd8bec966d%3A0xe828851b2412c428!2sDe&#39;%20Leuit%20Jambal%20Rice%20Sensation!5e0!3m2!1sen!2sid!4v1749211689053!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Kluwih Sunda",
@@ -80,7 +88,7 @@ const restoData = {
       "slug": "kluwih-sunda",
       "rating": 4,
       "kategori": "kuliner-keluarga-bogor",
-      "map" : '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.353226185666!2d106.80838437499361!3d-6.602952093390945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5dc120272b5%3A0xa60f986acaaa4b3a!2sKluwih%20Sunda!5e0!3m2!1sen!2sid!4v1749207392935!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3532261327455!2d106.8109593!3d-6.6029521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5dc120272b5%3A0xa60f986acaaa4b3a!2sKluwih%20Sunda!5e0!3m2!1sen!2sid!4v1749211766215!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Gili-Gili Restaurant",
@@ -89,7 +97,8 @@ const restoData = {
       "image": "public/images/riung-gili-gili-restaurant.jpg",
       "slug": "gili-gili-restaurant",
       "rating": 4,
-      "kategori": "kuliner-keluarga-bogor"
+      "kategori": "kuliner-keluarga-bogor",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.2861910859137!2d106.8127676!3d-6.611318600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5e14a04689b%3A0x5eb6805173ee4dc0!2sGili-Gili%20Restaurant!5e0!3m2!1sen!2sid!4v1749211816001!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "December Coffee",
@@ -98,7 +107,8 @@ const restoData = {
       "image": "public/images/december-cafe.jpg",
       "slug": "december coffee",
       "rating": 4,
-      "kategori": "cafe-hits-tangerang"
+      "kategori": "cafe-hits-tangerang",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.999557204116!2d106.6305606!3d-6.263786800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fba626786c8b%3A0xafe64cd83b138fc2!2sDecember%20Coffee!5e0!3m2!1sen!2sid!4v1749211845882!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Onado Cafe",
@@ -107,7 +117,8 @@ const restoData = {
       "image": "public/images/onado-sky.jpg",
       "slug": "onado-cafe",
       "rating": 4,
-      "kategori": "cafe-hits-tangerang"
+      "kategori": "cafe-hits-tangerang",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.160477084344!2d106.7075215!3d-6.2425708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb5e8eb90c07%3A0x5520b424ede4720e!2sOnado%20Cafe!5e0!3m2!1sen!2sid!4v1749211878782!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "La Nuna Cafe & Resto",
@@ -116,7 +127,8 @@ const restoData = {
       "image": "public/images/nuna-cafe.jpg",
       "slug": "la-nuna-cafe-dan-resto",
       "rating": 4,
-      "kategori": "cafe-hits-tangerang"
+      "kategori": "cafe-hits-tangerang",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3021706300406!2d106.70079489999999!3d-6.22383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb692a460235%3A0x1f529b32d18de52e!2sLa%20Nuna%20Cafe%20%26%20Resto!5e0!3m2!1sen!2sid!4v1749211907600!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Formaggio Coffee and Resto",
@@ -125,7 +137,8 @@ const restoData = {
       "image": "public/images/formaggio-coffee-resto.jpg",
       "slug": "formaggio-coffee-resto",
       "rating": 4,
-      "kategori": "cafe-hits-tangerang"
+      "kategori": "cafe-hits-tangerang",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6898165133875!2d106.6326204!3d-6.1722692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9b24a503f63%3A0xbd431e82103b0401!2sFormaggio%20Coffee%20and%20Resto!5e0!3m2!1sen!2sid!4v1749211934839!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Sedjuk Bakmi & Kopi",
@@ -134,7 +147,8 @@ const restoData = {
       "image": "public/images/sedjuk.jpg",
       "slug": "sedjuk-bakmi-dan-kopi",
       "rating": 4,
-      "kategori": "spot-makan-populer-depok"
+      "kategori": "spot-makan-populer-depok",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.39495138104!2d106.78595209999999!3d-6.3428676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef4f61fdf84f%3A0x43946b267bdf020a!2sSEDJUK%20BAKMI%20%26%20KOPI%20CINERE!5e0!3m2!1sen!2sid!4v1749211962796!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Pondok Gurame",
@@ -143,7 +157,8 @@ const restoData = {
       "image": "public/images/pondok-gurame.jpg",
       "slug": "pondok-gurame",
       "rating": 4,
-      "kategori": "spot-makan-populer-depok"
+      "kategori": "spot-makan-populer-depok",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8908242293473!2d106.83357699999999!3d-6.408062999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ebc4466c9a1f%3A0x1aaaa9a2fac6f77f!2sPondok%20Ikan%20Gurame!5e0!3m2!1sen!2sid!4v1749211988966!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Rumah Makan Saung Talaga",
@@ -152,7 +167,8 @@ const restoData = {
       "image": "public/images/rumah-makan-saung-talaga.jpg",
       "slug": "rumah-makan-saung-talaga",
       "rating": 4,
-      "kategori": "spot-makan-populer-depok"
+      "kategori": "spot-makan-populer-depok",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.997894379323!2d106.7887257!3d-6.394271699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e93985902917%3A0x70a894ff5e4a3b20!2sRumah%20Makan%20Saung%20Talaga!5e0!3m2!1sen!2sid!4v1749212013474!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     },
     {
       "nama_lokasi": "Kampung Kecil Depok Sawangan",
@@ -161,7 +177,8 @@ const restoData = {
       "image": "public/images/kampung-kecil-sawangan.jpg",
       "slug": "kampung-kecil-depok-sawangan",
       "rating": 4,
-      "kategori": "spot-makan-populer-depok"
+      "kategori": "spot-makan-populer-depok",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.993344153119!2d106.8013503!3d-6.3948583999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e959671538cb%3A0x70a9af8a9e7e993d!2sKampung%20Kecil%20Depok%20Sawangan!5e0!3m2!1sen!2sid!4v1749212041565!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
     }
   ]
 }
