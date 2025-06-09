@@ -6,7 +6,7 @@ import Footer from "../components/Footer/Footer";
 import "./../css/Home.css";
 import categories from "../konten/kategori";
 import { useEffect, useState } from "react";
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
     const [data, setData] = useState([]);
@@ -23,9 +23,11 @@ const Home = () => {
                 <div className="content">
                     <Hero image={"./images/hero.jpg"}>
                         <h1> Help You to Find <br></br> Our Best Culinaries...</h1>
-                        <button className="hero-button">
-                            Start Now
-                        </button>
+                        <Link to={"/culinaries"}>
+                            <button className="hero-button">
+                                Start Now
+                            </button>
+                        </Link>
                     </Hero>
                     <div className="container">
                         <div className="categories-section">

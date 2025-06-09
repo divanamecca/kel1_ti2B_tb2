@@ -12,7 +12,7 @@ const AboutUs = () => {
               <div className="about-us-content">
                 <div className="about-us-description">
                   <h1> About us </h1>
-                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis accusamus dolor mollitia laborum alias soluta nulla, sed facere laudantium ipsam velit exercitationem explicabo dolorem eos minima dicta odio magnam?</p>
+                  <p>JakCulinary is your trusted culinary guide for discovering the best flavors in the Greater Jakarta area (Jabodetabek). We curate a wide range of dining recommendations — from hidden street food gems to popular restaurants — all based on high ratings and genuine reviews from food enthusiasts.</p>
                 </div>
                 <div className="about-us-img">
                   <img src={"./images/cafe.jpg"} alt="" />
@@ -20,8 +20,8 @@ const AboutUs = () => {
               </div>
               <div className="about-us-content">
                 <div className="about-us-description">
-                  <h1> About us </h1>
-                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis accusamus dolor mollitia laborum alias soluta nulla, sed facere laudantium ipsam velit exercitationem explicabo dolorem eos minima dicta odio magnam?</p>
+                  <h1>Our Mission</h1>
+                  <p>We believe that a satisfying dining experience starts with accurate and honest information. That’s why every recommendation on JakCulinary goes through a strict selection process, considering taste, ambiance, service, and price.</p>
                 </div>
                 <div className="about-us-img">
                   <img src={"./images/cafe.jpg"} alt="" />
