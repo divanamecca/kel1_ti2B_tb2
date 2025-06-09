@@ -3,9 +3,7 @@ const Footer = () => {
     return(
         <>
             <div className="footer">
-                <p>
-                    testing
-                </p>
+                    <p>© 2024 JakCulinary. All rights reserved.</p>
             </div>
         </>
     )

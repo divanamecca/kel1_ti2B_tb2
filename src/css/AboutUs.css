@@ -1,122 +1,44 @@
-/* Reset default margin/padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.about-us-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-/* Basic body styling */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #ffffff;
-  color: #333;
+.about-us-content {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
 }
 
-/* Hero section */
-.hero-section {
-  background-color: #8dd8ff; /* Warna oranye dari Eventbrite */
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
+.about-us-content .about-us-description {
+    width: 40%;
+    background-color: transparent;
 }
 
-.hero-section h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
+.about-us-content .about-us-description h1 {
+    background-color: transparent;
 }
 
-.hero-section p {
-  font-size: 16px;
-  max-width: 800px;
-  margin: 0 auto;
+.about-us-content .about-us-description p{
+    background-color: transparent;
+    text-align: justify;
 }
 
-/* Stats section */
-.stats-section {
-  padding: 40px 20px;
-  text-align: center;
+.about-us-content .about-us-img {
+    height: 350px;
+    width: 40%;
 }
 
-.stats-section h2 {
-  font-size: 24px;
-  margin-bottom: 30px;
+.about-us-content .about-us-img img {
+    height: 100%;
+    width: 100%;
 }
 
-.stats {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
+.about-us-content:nth-child(even) {
+    flex-direction: row-reverse;
+    background-color: white;
 }
 
-.stat-item p {
-  font-size: 16px;
-  color: #444;
-}
-
-/* Image Grid */
-.image-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 40px 20px;
-}
-
-.grid-item {
-  width: 250px;
-  text-align: center;
-  background-color: white;
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.grid-item img {
-  width: 100%;
-  height: 180px;
-  object-fit: contain;
-  border-radius: 8px;
-}
-
-.grid-item p {
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-.sub-text {
-  max-width: 800px;
-  margin: 0 auto 8px;
-  font-size: 1.1rem;
-  color: #444;
-  text-align: center;
-  line-height: 1.6;
-}
-
-.card {
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  padding: 16px;
-  width: 300px;
-}
-
-.logo-img {
-  width: 100px;
-  margin-bottom: 12px;
-}
-
-.kampus-img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 12px;
-}
-
-.card-title {
-  font-weight: 600;
-  font-size: 1rem;
-  text-align: center;
-  color: #333;
-}

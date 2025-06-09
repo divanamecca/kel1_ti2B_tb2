@@ -1,7 +1,8 @@
 import "./Faq.css"
 import { useEffect, useState } from "react";
 
-const Faq = () => { 
+const Faq = (props) => { 
+    const {question, answer} = props
 
     const [isActive, setIsActive] = useState(false);
 
@@ -17,14 +18,9 @@ const Faq = () => {
     return (
         <>
             <div className="questions" onClick={() => setIsActive(!isActive)}>
-                <h3>
-                    What are the most popular restaurants in Jakarta?
-                </h3>
+                <h3>{question}</h3>
                 <div className={`answer-box ${isActive ? 'active' : ''}`}>
-                    <p>
-                        Some of the most popular restaurants in Jakarta include:
-                        These restaurants are known for their delicious food and great service.
-                    </p>
+                    <p style={{fontWeight : "bold"}}>{answer}</p>
                 </div>
             </div>
         </>

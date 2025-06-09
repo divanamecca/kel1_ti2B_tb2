@@ -25,3 +25,9 @@
     font-weight: 600;
     color: #333;
 }
+
+@media only screen and (max-width : 768px) {
+    .card {
+        width: 260px;
+    }
+}

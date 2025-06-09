@@ -2,6 +2,7 @@ import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import Card from "../components/Card/Card";
 import Faq from "../components/Faq/Faq";
+import Footer from "../components/Footer/Footer";
 import "./../css/Home.css";
 import categories from "../konten/kategori";
 import { useEffect, useState } from "react";
@@ -49,13 +50,13 @@ const Home = () => {
                                     </h1>
                                 </div>
                                 <div className="faq-body">
-                                    <Faq/>
+                                    <Faq question={"What are the most popular restaurants in Jakarta"} answer={" Some of the most popular restaurants in Jakarta include: These restaurants are known for their delicious food and great service."}/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {/* <Footer/> */}
+                <Footer/>
             </div>
         </>
     )

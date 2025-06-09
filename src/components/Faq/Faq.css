@@ -8,6 +8,7 @@
     background-color: #fff;
     transition: transform 0.2s ease;
     cursor: pointer;
+    padding: 8px;
 }
 
 .questions h3 {
@@ -31,6 +32,29 @@
     max-height: 500px; /* cukup tinggi untuk teks */
     opacity: 1;
     margin-top: 10px;
+}
+
+@media only screen and (max-width : 768px) {
+    .questions h3 {
+        font-size: 15px;
+    }
+
+    .questions .answer-box p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .questions {
+        padding: 8px;
+    }
+    .questions h3 {
+        font-size: 11px;
+    }
+
+    .questions .answer-box p {
+        font-size: 11px;
+    }
 }
 
 

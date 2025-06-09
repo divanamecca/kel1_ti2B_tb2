@@ -66,4 +66,35 @@
 .restaurant-address {
     display: flex;
     flex-direction: column;
+    padding: 5px;
+}
+
+.restaurant-address .restaurant-map {
+    width: 100%;
+}
+
+@media screen and (max-width : 768px) {
+    .restaurant {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .restaurant-img {
+        width: 100% !important;
+    }
+
+    .restaurant-info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .restaurant-title p {
+        font-size: 19px !important;
+    }
+
+    .restaurant-description p {
+        font-size: 15px !important;
+    }
 }

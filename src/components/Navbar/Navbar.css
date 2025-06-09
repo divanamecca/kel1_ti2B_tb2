@@ -6,8 +6,12 @@
     background-color: white;
 }
 
+.nav-menu {
+    background-color: white;
+}
 .nav-links {
     background-color: white;
+    display: flex;
 }
 
 .nav-links  .nav-item{
@@ -23,6 +27,10 @@
     color: white;
 }
 
+.nav-item.active {
+    background-color: #8DD8FF;
+    color: white;
+}
 .nav-brand {
     background-color: white;
 }
@@ -31,4 +39,101 @@
     font-weight: 100;
     font-size: 24px;
     background-color: white;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 100;
+}
+
+.hamburger .bar {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+@media only screen and (max-width : 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    
+    .navbar .nav-menu .nav-links {
+        margin-bottom: 10px;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .navbar {
+        padding: 0px;
+        flex-direction: column;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .nav-menu {
+        position: absolute;
+        z-index: 999;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu.active {
+        max-height: 500px;
+        padding: 20px 0;
+    }
+
+    .nav-brand {
+        width: 100% ;
+        display: flex;
+        flex-direction: row;
+        gap: 6.9rem;
+        align-items: center;
+    }
+
+    .nav-menu .nav-links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    } 
+    
+    .hamburger {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    /* Hamburger Animation */
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
 }

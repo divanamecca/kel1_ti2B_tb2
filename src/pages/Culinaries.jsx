@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import CategorySection from "../components/CategorySection/CategorySection";
+import Footer from "../components/Footer/Footer";
 import "./../css/Culinaries.css";
 import kategori from "../konten/kategori";
 import { useEffect, useState } from "react";
@@ -28,7 +29,7 @@ const Culinaries = () => {
             })
           }
         </div>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </>
   );
