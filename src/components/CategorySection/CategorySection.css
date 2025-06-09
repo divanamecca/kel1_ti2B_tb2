@@ -23,6 +23,9 @@
   .category-section .restaurant-list {
     justify-content: center;
   }
+  .category-title {
+    text-align: center  ;
+  }
   .category-section {
     justify-content: center;
     align-items: center;

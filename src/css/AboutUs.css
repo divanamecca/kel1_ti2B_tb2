@@ -28,8 +28,8 @@
 }
 
 .about-us-content .about-us-img {
-    height: 350px;
-    width: 40%;
+    height: 290px;
+    width: 30%;
 }
 
 .about-us-content .about-us-img img {
@@ -40,5 +40,32 @@
 .about-us-content:nth-child(even) {
     flex-direction: row-reverse;
     background-color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .about-us-content, .about-us-content:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .about-us-content .about-us-description {
+        width: 80%;
+    }
+
+    .about-us-content .about-us-img {
+        width: 80%;
+        height: 380px;
+    }
+
+    .about-us-content .about-us-description h1 {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .about-us-content .about-us-img {
+        height: 280px;
+    }
 }
 
