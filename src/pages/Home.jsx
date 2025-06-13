@@ -58,14 +58,6 @@ const Home = () => {
                 </div>
                 <div className="faq-body">
                   <Faq
-                    question={
-                      "What are the most popular restaurants in Jakarta"
-                    }
-                    answer={
-                      " Some of the most popular restaurants in Jakarta include: These restaurants are known for their delicious food and great service."
-                    }
-                  />
-                  <Faq
                     question={"How do I find the right restaurant for me?"}
                     answer={
                       "You can browse by food category, like Family Food or Street Food. Each restaurant shows a photo, rating, and location, so it's easy to choose what you like."
