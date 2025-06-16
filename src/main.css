@@ -4,7 +4,9 @@
     background-color: #FAF9F6;
     text-decoration: none;
     box-sizing: border-box;
+    margin: 0;
 }
+
 
 .wrapper {
     display: flex;

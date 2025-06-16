@@ -42,6 +42,7 @@
 .rating-value {
   color: #333;
   font-size: 1rem;
+  background-color: transparent;
   margin-left: 8px;
 }
 
