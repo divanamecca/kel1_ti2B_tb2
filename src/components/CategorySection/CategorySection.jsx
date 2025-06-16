@@ -1,5 +1,4 @@
 import "./CategorySection.css";
-import { NavLink } from "react-router-dom";
 import RestaurantCard from "../RestoCard/RestoCard";
 import {useState, useEffect} from "react";
 import restaurantsData from "../../konten/data";
